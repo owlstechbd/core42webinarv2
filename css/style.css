@@ -50,6 +50,10 @@ a:hover {
     width: 85%;
     margin: 0 auto;
 }
+.main2{
+    width: 95%;
+    margin-left: auto;
+}
 .webinar-hero{
     display: flex;
     align-items: center;
@@ -114,14 +118,23 @@ a:hover {
 }
 .about-web-container{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .webn-left{
     width: 48%;
 }
+.videocall-img{
+    width: 80%;
+    margin: 40px 0;
+}
 
 .webn-left h3{
     margin-bottom: 15px;
+}
+.first-title{
+    font-size: 2.8vw;
+    font-weight: 500;
 }
 .third-title{
     font-size: 2vw;
@@ -130,6 +143,9 @@ a:hover {
 .fourth-heading{
     font-size: 1.5vw;
     font-weight: 500;
+}
+.first-pra{
+    font-size: 1.258vw;
 }
 .second-pra{
     font-size: 1.3vw;
@@ -140,6 +156,10 @@ a:hover {
 }
 .webn-right{
     width: 44%;
+}
+.webn-right .white-paper-form{
+    background: #F1F1F1;
+    padding:100px 50px;
 }
 .share-icon{
     display: flex;
@@ -158,6 +178,7 @@ a:hover {
     width: 100%;
 }
 .about-speakers{
+    margin-top: 100px;
     width: 48%;
 }
 .about-speakers h3{
@@ -496,6 +517,9 @@ input[type="submit"] {
     border-bottom-right-radius: 4px;
     font-weight: 500;
 }
+input[type="submit"]:hover {
+    cursor: pointer;
+}
 .footer-right{
     text-align: right;
 }
@@ -639,4 +663,68 @@ input[type="submit"] {
     color: #00D6A8;
     font-size: 25px;
     margin-bottom: 20px;
+}
+.thankyou-hero{
+    background: #011F20;
+}
+.thankyou-container{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.thankyou-left{
+    width: 30%;
+}
+.thankyou-left p{
+    margin: 20px 0;
+}
+.thank-btn{
+    width: 100%;
+    margin-top: 40px;
+}
+.thankyou-right{
+    width: 65%;
+    height: 590px;
+    padding: 20px;
+    background:#F1F3F3 ;
+}
+.thankyou-right iframe{
+    border-radius: 10px;
+}
+.more-webinar{
+    width: 100%;
+    padding: 30px 0;
+}
+.more-container{
+    width: 95%;
+    margin: 0 auto;
+}
+.webinar-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.webinar-box{
+    width: 32%;
+}
+.webinar-box img{
+    width: 100%;
+    margin-top:20px;
+}
+.webinar-cta{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../images/webinar-cta.png) center center no-repeat;
+    background-size: cover;
+}
+.cta-divder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta-divder h2{
+    color: #fff;
+    width: 30%;
 }
